@@ -1,0 +1,3 @@
+Our project is a job finder website. This  webpage is an online platform where employers post job listings and 
+individuals can search for and apply to various job opportunities based on their preferences, skills,
+and desired employment criteria. It serves as a centralized hub connecting job seekers with potential employers.
