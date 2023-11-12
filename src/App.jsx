@@ -40,7 +40,7 @@ function App() {
             </div>
           </div>
           <div className="justify-center items-center gap-3 flex">
-            <img className="w-6 h-4" src="https://via.placeholder.com/24x16" />
+            <img className="w-6 h-4" src="\public\images\engflag.png" />
             <div className="self-stretch justify-center items-center gap-1 inline-flex">
               <div className="text-gray-500 text-sm font-normal font-['Inter'] leading-tight">
                 English
@@ -54,8 +54,9 @@ function App() {
         <div className="justify-center items-center gap-8 flex">
           <div className="justify-start items-center gap-2 flex">
             <div className="w-10 h-10 relative"></div>
+            <img src="\public\images\briefcase1.svg" />
             <div className="text-zinc-900 text-2xl font-semibold font-['Inter'] leading-10">
-              Jobpilot
+              CareerHunter
             </div>
           </div>
           <div className="pl-6 pr-[252px] py-[9px] bg-white rounded-[5px] border border-zinc-200 justify-start items-center flex">
@@ -63,8 +64,9 @@ function App() {
               <div className="justify-center items-center gap-3 flex">
                 <img
                   className="w-6 h-4"
-                  src="https://via.placeholder.com/24x16"
+                  src="public/images/Flag_of_Albania.svg.png"
                 />
+                {/* option dhe select */}
                 <div className="text-zinc-900 text-sm font-medium font-['Inter'] leading-tight">
                   Tirana
                 </div>
@@ -72,7 +74,8 @@ function App() {
                   <div className="w-4 h-4 relative"></div>
                 </div>
               </div>
-              <div className="w-8 h-[0px] origin-top-left rotate-90 border border-zinc-200"></div>
+              <div className="w-8 h-[0px] origin-top-left rotate-90 border border-zinc-200"></div>{" "}
+              {/*  Ktu eshte vija  */}
               <div className="justify-start items-start gap-3 flex">
                 <div className="w-6 h-6 relative"></div>
                 <div className="text-gray-400 text-base font-normal font-['Inter'] leading-normal">
@@ -90,7 +93,7 @@ function App() {
           </div>
           <div className="px-6 py-3 bg-blue-700 rounded-[3px] justify-center items-center gap-3 flex">
             <div className="text-white text-base font-semibold font-['Inter'] capitalize leading-normal">
-              Post a Jobs
+              Post a Job
             </div>
           </div>
         </div>
