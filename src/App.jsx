@@ -3,7 +3,7 @@
 function App() {
   return (
     <>
-      <div className="w-full h-12 px-[300px] bg-gray-100 justify-between items-center inline-flex">
+      <div className="lg:w-full lg:h-12 px-6 lg:px-[300px] bg-gray-100 justify-between items-center inline-flex">
         <div className="justify-start items-start gap-6 flex">
           <div className="py-3.5 bg-gray-100 shadow-inner justify-start items-center gap-1 flex">
             <div className="text-blue-700 text-sm font-medium font-['Inter'] leading-tight">
@@ -36,7 +36,7 @@ function App() {
               <div className="w-6 h-6 relative"></div>
             </div>
             <div className="text-zinc-900 text-sm font-medium font-['Inter'] leading-tight">
-              +1-202-555-0178
+              +355 685 73 412
             </div>
           </div>
           <div className="justify-center items-center gap-3 flex">
@@ -50,7 +50,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="w-full h-[90px] px-[150px] py-5 bg-white justify-between items-center inline-flex">
+      <div className="lg:w-full lg:h-[90px] px-6 lg:px-[150px] py-5 bg-white justify-between items-center inline-flex">
         <div className="justify-center items-center gap-8 flex">
           <div className="justify-start items-center gap-2 flex">
             <div className="w-10 h-10 relative"></div>
@@ -61,21 +61,23 @@ function App() {
           </div>
           <div className="pl-6 pr-[252px] py-[9px] bg-white rounded-[5px] border border-zinc-200 justify-start items-center flex">
             <div className="self-stretch justify-center items-center gap-5 inline-flex">
-              <div className="justify-center items-center gap-3 flex">
+              <div className="justify-center items-center gap-2 flex">
                 <img
                   className="w-6 h-4"
                   src="public/images/Flag_of_Albania.svg.png"
                 />
-                {/* option dhe select */}
-                <div className="text-zinc-900 text-sm font-medium font-['Inter'] leading-tight">
-                  Tirana
-                </div>
+                <select
+                  className=" bg-white  rounded leading-tight focus:outline-none focus:bg-white"
+                  id="location"
+                >
+                  <option value="tirana">Tirana</option>
+                  <option value="prishtina">Prishtina</option>
+                </select>
                 <div className="w-4 h-4 justify-center items-center flex">
                   <div className="w-4 h-4 relative"></div>
                 </div>
               </div>
-              <div className="w-8 h-[0px] origin-top-left rotate-90 border border-zinc-200"></div>{" "}
-              {/*  Ktu eshte vija  */}
+              <div className="w-2 h-8 origin-top-left border-l-2  border-zinc-200"></div>
               <div className="justify-start items-start gap-3 flex">
                 <div className="w-6 h-6 relative"></div>
                 <div className="text-gray-400 text-base font-normal font-['Inter'] leading-normal">
