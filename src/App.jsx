@@ -72,7 +72,9 @@ function App() {
         <div className="w-full h-28 px-[100px] pt-[100px] justify-between items-center inline-flex">
           <div className="p-5 bg-white rounded-lg justify-start items-center gap-5 flex">
             <div className="p-4 bg-sky-100 rounded justify-start items-start gap-2.5 flex">
-              <div className="w-10 h-10 relative"></div>
+              <div className="w-10 h-10 relative">
+                <img src="\public\images\briefcase-duotone 1.svg" />
+              </div>
             </div>
             <div className="flex-col justify-start items-start gap-1.5 inline-flex">
               <div className="w-[180px] text-zinc-900 text-2xl font-medium font-['Inter'] leading-loose">
@@ -85,7 +87,9 @@ function App() {
           </div>
           <div className="p-5 bg-white rounded-lg shadow justify-start items-center gap-5 flex">
             <div className="p-4 bg-blue-700 rounded justify-start items-start gap-2.5 flex">
-              <div className="w-10 h-10 relative"></div>
+              <div className="w-10 h-10 relative">
+                <img src="\public\images\buildings-duotone 1.svg" />
+              </div>
             </div>
             <div className="flex-col justify-start items-start gap-1.5 inline-flex">
               <div className="w-[180px] text-zinc-900 text-2xl font-medium font-['Inter'] leading-loose">
@@ -98,7 +102,9 @@ function App() {
           </div>
           <div className="p-5 bg-white rounded-lg justify-start items-center gap-5 flex">
             <div className="p-4 bg-sky-100 rounded justify-start items-start gap-2.5 flex">
-              <div className="w-10 h-10 relative"></div>
+              <div className="w-10 h-10 relative">
+                <img src="public\images\users-duotone 1.svg" />{" "}
+              </div>
             </div>
             <div className="flex-col justify-start items-start gap-1.5 inline-flex">
               <div className="w-[180px] text-zinc-900 text-2xl font-medium font-['Inter'] leading-loose">
@@ -111,7 +117,9 @@ function App() {
           </div>
           <div className="p-5 bg-white rounded-lg justify-start items-center gap-5 flex">
             <div className="p-4 bg-sky-100 rounded justify-start items-start gap-2.5 flex">
-              <div className="w-10 h-10 relative"></div>
+              <div className="w-10 h-10 relative">
+                <img src="\public\images\briefcase-duotone 1.svg" />
+              </div>
             </div>
             <div className="flex-col justify-start items-start gap-1.5 inline-flex">
               <div className="w-[180px] text-zinc-900 text-2xl font-medium font-['Inter'] leading-loose">
