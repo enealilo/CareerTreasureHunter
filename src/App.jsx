@@ -5,9 +5,10 @@ import SignUpForm from './components/LoginForm/SignUpForm'
 function App() {
  
   return (
-    <div>
-      <LoginSignup/>
-    </div>
+    <>
+      <LoginForm/>
+      <SignUpForm/>
+    </>
   )
 }
 
